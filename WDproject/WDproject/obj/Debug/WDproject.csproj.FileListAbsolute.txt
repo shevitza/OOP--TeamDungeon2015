@@ -1,0 +1,6 @@
+C:\Users\Evgenia\Documents\GitHub\WDproject\WDproject\bin\Debug\WDproject.exe.config
+C:\Users\Evgenia\Documents\GitHub\WDproject\WDproject\bin\Debug\WDproject.exe
+C:\Users\Evgenia\Documents\GitHub\WDproject\WDproject\bin\Debug\WDproject.pdb
+C:\Users\Evgenia\Documents\GitHub\WDproject\WDproject\obj\Debug\WDproject.csprojResolveAssemblyReference.cache
+C:\Users\Evgenia\Documents\GitHub\WDproject\WDproject\obj\Debug\WDproject.exe
+C:\Users\Evgenia\Documents\GitHub\WDproject\WDproject\obj\Debug\WDproject.pdb
