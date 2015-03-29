@@ -9,17 +9,33 @@ namespace WDproject.Models
 
     using WDproject.Interfaces;
 
-    class Worker:IWorker
+    public  class Worker:IWorker
     {
+        //Fields
+        private string name;
+        private double payPerHour;
+
+        //Constructors
+        public Worker(string name)
+        {
+            this.Name = name;
+        }
+
+        public Worker(string name, double payPerHour)
+        {
+            this.PayPerHour = payPerHour;
+        }
+
+        //Properties
         public string Name
         {
             get
             {
-                throw new NotImplementedException();
+                return this.name;
             }
             set
             {
-                throw new NotImplementedException();
+                this.name = value;
             }
         }
 
@@ -27,11 +43,11 @@ namespace WDproject.Models
         {
             get
             {
-                throw new NotImplementedException();
+                return this.payPerHour;
             }
             set
             {
-                throw new NotImplementedException();
+                this.payPerHour = value;
             }
         }
 
