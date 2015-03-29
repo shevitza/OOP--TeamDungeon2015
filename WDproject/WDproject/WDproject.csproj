@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Engins\CompanyEngine.cs" />
+    <Compile Include="Engins\Engine.cs" />
     <Compile Include="Engins\RequestFactory.cs" />
     <Compile Include="Interfaces\IArticle.cs" />
     <Compile Include="Interfaces\ICompany.cs" />
@@ -51,12 +51,16 @@
     <Compile Include="Interfaces\IWindow.cs" />
     <Compile Include="Interfaces\IWorker.cs" />
     <Compile Include="MainWDproject.cs" />
-    <Compile Include="Models\CompanyStatus.cs" />
+    <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Cross.cs" />
+    <Compile Include="Models\Door.cs" />
+    <Compile Include="Models\Window.cs" />
+    <Compile Include="Models\Worker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="WDprojectClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup />

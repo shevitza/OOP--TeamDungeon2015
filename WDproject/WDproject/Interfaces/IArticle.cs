@@ -10,7 +10,7 @@ namespace WDproject.Interfaces
     interface IArticle        
     {
         string Name { get; set; }
-        string Area { get; set; }
+        int Area { get; set; }
         Cross CrossType { get; set; }
         int ProductionDuration { get; set; }
         int InstallDuration { get; set; }
