@@ -64,24 +64,6 @@ namespace WDproject.Models
             }
         }
 
-        public int Area
-        {
-            get
-            {
-                return this.area;
-            }
-            set
-            {
-                switch (numberOfWings)
-                {
-                    case 1: this.area = doorWidth * doorHeight; break;
-                    case 2: this.area = doorWidth * doorHeight * 2; break;
-                    default:
-                        break;
-                }
-
-            }
-        }
 
         public Cross CrossType
         {
@@ -147,11 +129,17 @@ namespace WDproject.Models
         {
             get
             {
-                throw new NotImplementedException();
+                return this.area;
             }
             set
             {
-                throw new NotImplementedException();
+                switch (numberOfWings)
+                {
+                    case 1: this.area = doorWidth * doorHeight; break;
+                    case 2: this.area = doorWidth * doorHeight * 2; break;
+                    default:
+                        break;
+                }
             }
         }
 
