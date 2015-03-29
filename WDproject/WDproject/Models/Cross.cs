@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace WDproject.Models
 {
     //тип на сечението
-    enum Cross
+   public enum Cross
     {
         STT, SDH
     }
